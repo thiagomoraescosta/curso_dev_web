@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de Tabelas</title>
+    <style>
+        table {
+            text-align: center;
+            margin: 40px;
+        }
+        table, td, th {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        table {
+            width: 50%;
+        }
+
+        th {
+            background-color: rgb(100, 141, 255);
+        }
+
+        td {
+            background-color: bisque;
+        }
+        .tab3{
+            background-color: rgb(235, 235, 137);
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">CÉLULA</th>
+                <th colspan="2">CÉLULA</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>CÉLULA</td>
+                <td>CÉLULA</td>
+                <td>CÉLULA</td>
+                <td>CÉLULA</td>
+            </tr>
+            <tr>
+                <td>CÉLULA</td>
+                <td>CÉLULA</td>
+                <td>CÉLULA</td>
+                <td>CÉLULA</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <table>
+        <thead>
+            <tr>
+                <th colspan="4">CÉLULA</th>
+            </tr>
+            <tr>
+                <th colspan="2">CÉLULA</th>
+                <th colspan="2">CÉLULA</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>CÉLULA</td>
+                <td>CÉLULA</td>
+                <td>CÉLULA</td>
+                <td>CÉLULA</td>
+            </tr>
+            <tr>
+                <td>CÉLULA</td>
+                <td>CÉLULA</td>
+                <td>CÉLULA</td>
+                <td>CÉLULA</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table>
+        <thead>
+            <tr>
+                <th>CÉLULA</th>
+                <th>CÉLULA</th>
+                <th>CÉLULA</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>CÉLULA</td>
+                <td class="tab3" colspan="2">CÉLULA</td>
+            </tr>
+            <tr>
+                <td>CÉLULA</td>
+                <td class="tab3" colspan="2">CÉLULA</td>
+            </tr>
+            <tr>
+                <td>CÉLULA</td>
+                <td>CÉLULA</td>
+                <td>CÉLULA</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table>
+        <tbody>
+            <tr>
+                <th rowspan="2">CÉLULA</th>
+                <td>CÉLULA</td>  
+            </tr>
+            <tr>
+                <td>CÉLULA</td>
+            </tr>
+            <tr>
+                <th rowspan="2">CÉLULA</th>
+                <td>CÉLULA</td>
+            </tr>
+            <tr>
+                <td>CÉLULA</td>
+            </tr>
+            </tbody>
+    </table>
+    <table>
+        <thead>
+            <tr>
+                <th>CÉLULA</th>
+                <th colspan="2">CÉLULA</th>
+                <th colspan="2">CÉLULA</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3">CÉLULA</th>
+                <td>CÉLULA</td>
+                <td>CÉLULA</td>
+                <td>CÉLULA</td>
+                <td>CÉLULA</td>
+            </tr>
+            <tr>
+                <td>CÉLULA</td>
+                <td>CÉLULA</td>
+                <td>CÉLULA</td>
+                <td>CÉLULA</td>
+            </tr>
+            <tr>
+                <td>CÉLULA</td>
+                <td>CÉLULA</td>
+                <td>CÉLULA</td>
+                <td>CÉLULA</td>
+            </tr>
+        </tbody>
+    </table>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">CÉLULA</th>
+                <th>CÉLULA</th>
+                <th>CÉLULA</th>
+                <th>CÉLULA</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="4">CÉLULA</th>
+                <th rowspan="2">CÉLULA</th>
+                <td>CÉLULA</td>
+                <td>CÉLULA</td>
+                <td>CÉLULA</td>
+            </tr>
+            <tr>
+                <td>CÉLULA</td>
+                <td>CÉLULA</td>
+                <td>CÉLULA</td>
+            </tr>
+            <tr>
+                <th rowspan="2">CÉLULA</th>
+                <td>CÉLULA</td>
+                <td>CÉLULA</td>
+                <td>CÉLULA</td>
+            </tr>
+            <tr>
+                <td>CÉLULA</td>
+                <td>CÉLULA</td>
+                <td>CÉLULA</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
