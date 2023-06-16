@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+.form-container {
+    width: 60%;
+    margin: auto;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+}
