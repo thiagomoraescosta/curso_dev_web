@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <div class="form-container">
+        <form action="https://sys4soft.com/udemy/forms/index.php" method="post">
+            <h3>Formulário</h3>
+            <div class="form-group">
+                <label>Selecione uma opção:</label>
+                <select name="campo_selecao" id="" required>
+                    <optgroup label="paises">
+                        <option value="br">Brasil</option>
+                        <option value="pt">Portugal</option>
+                        <option value="it">Itália</option>
+                        <option value="es">Espanha</option>
+                    </optgroup>
+
+                    <optgroup label="outros paises">
+                        <option value="de">Alemanha</option>
+                        <option value="fr">França</option>
+                        <option value="cv">Cabo Verde</option>
+                    </optgroup>
+
+                </select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
