@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: black;
+    height: 100vh;
+    color: white;
+}
+
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    background-color: orangered;
+    padding: 20px;
+}
+
+main {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: stretch;
+}
+
+main>div {
+
+    text-align: center;
+    height: 500px;
+    font-size: 1.5em;
+    padding-top: 20px;
+}
+
+.esquerda {
+    background-color: dodgerblue;
+    flex-grow: 2;
+}
+
+.centro {
+    background-color: blueviolet;
+    flex-grow: 6;
+}
+
+.direita {
+    background-color: forestgreen;
+    flex-grow: 2;
+}
+
+footer {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    background-color: rgb(255, 0, 212);
+    padding: 20px;
+}
