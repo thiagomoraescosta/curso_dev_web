@@ -19,7 +19,7 @@ section {
         "nav content"
         "footer footer"
     ;
-    grid-gap: 5px;
+    gap: 5px;
 }
 
 header {
@@ -48,7 +48,6 @@ article {
 article>p {
     text-align: center;
     padding-top: 200px;
-
 }
 
 footer {
